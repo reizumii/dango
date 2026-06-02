@@ -4,6 +4,9 @@
 
 # Dango
 
+[![Release](https://img.shields.io/github/v/tag/reizumii/dango?style=flat-square&label=release)](https://github.com/reizumii/dango/releases/latest)
+[![License](https://img.shields.io/github/license/reizumii/dango?style=flat-square)](LICENSE)
+
 A delightful supplemental icon library for Firefox Proton 🍡
 
 </div>
