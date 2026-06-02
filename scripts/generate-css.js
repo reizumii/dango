@@ -55,7 +55,9 @@ async function generateCss() {
 
     // Write to CSS file
     fs.writeFileSync(OUTPUT_CSS, cssContent, "utf8");
-    console.log(`\n🍡 Success! CSS file generated at: ${OUTPUT_CSS}`);
+    console.log(
+      `\n🍡 Success! CSS file generated at: ${OUTPUT_CSS} (${svgFiles.length} icons)`,
+    );
   } catch (error) {
     console.error("❌ Error processing SVGs:", error);
   }
