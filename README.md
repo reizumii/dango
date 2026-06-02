@@ -27,7 +27,7 @@ All that aside, I only made this as a fun exercise in icon design ^^
 
 ### Standalone SVGs
 
-All SVG icons inside the `svg` directory include the necessary SVG attributes and have been optimized, making them ready to use in your CSS theme or personal projects. You can easily drop and link them in your `userChrome.css`.
+All SVG icons inside the [`svg/`](./svg/) directory include the necessary SVG attributes and have been optimized, making them ready to use in your CSS theme or personal projects. You can easily drop and link them in your `userChrome.css`.
 
 ```css
 /* Replace sidebar and save page icons in Firefox */
@@ -41,7 +41,7 @@ All SVG icons inside the `svg` directory include the necessary SVG attributes an
 
 ### Single CSS file
 
-The `css/dango-icons.css` file includes all Dango icons stored as root variables in data URI format. Import this CSS file in your `userChrome.css` and use its variables anywhere.
+The [`css/dango-icons.css`](css/dango-icons.css) file includes all Dango icons stored as root variables in data URI format. Import this CSS file in your `userChrome.css` and use its variables anywhere.
 
 ```css
 @import "dango-icons.css";
@@ -73,4 +73,4 @@ Dango has been extracted from [Parfait](https://github.com/reizumii/parfait), wh
 
 ## License
 
-Dango is licensed under the [MPL 2.0](https://github.com/reizumii/dango/blob/main/LICENSE).
+Dango is licensed under the [MPL 2.0](LICENSE).
