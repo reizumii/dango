@@ -1,6 +1,12 @@
+<div align="center">
+
+<img src="images/logo.png" alt="Dango logo" width="96" />
+
 # Dango
 
 A delightful supplemental icon library for Firefox Proton 🍡
+
+</div>
 
 ## Why?
 
