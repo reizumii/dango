@@ -10,11 +10,13 @@ A delightful supplemental icon library for Firefox Proton 🍡
 
 ## Why?
 
-Some Firefox icons either have not been updated with newer versions or do not align well with the aesthetics of their design system [Acorn](https://acorn.firefox.com/). When they do, I find that few of their icons miss the mark.
+Some toolbar icons in Firefox either have not been updated with newer versions or do not align well with the aesthetics of their design system [Acorn](https://acorn.firefox.com/). When they do, I find that few of their icons miss the mark or simply inconsistent.
 
 **Dango** aims to bridge this gap by providing custom user-created icons that seamlessly complement Firefox's user interface.
 
 All icons are designed in a 16x16 grid, with a 1.25px stroke and mostly 2px stroke rounding. In addition, extra icons are provided for use in Firefox forks and mods providing extra functionality.
+
+Also, some icons have small variants designed in a 12x12 grid.
 
 > [!NOTE]
 > While Dango try its best to follow the style of Firefox icons as close as possible, there will always be imperfections and some icons even ignore following the style altogether.
