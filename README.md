@@ -23,7 +23,25 @@ All that aside, I only made this as a fun exercise in icon design ^^
 
 ## Usage
 
+### Standalone SVGs
+
 All SVG icons inside the `svg` directory include the necessary SVG attributes and have been optimized, making them ready to use in your CSS theme or personal projects. You can easily drop and link them in your `userChrome.css`.
+
+### Single CSS file
+
+The `css/dango-icons.css` file includes all Dango icons stored as root variables in data URI format. Import this CSS file in your `userChrome.css` and use its variables anywhere.
+
+```css
+@import "dango-icons.css";
+
+/* Replace sidebar and save page icons in Firefox */
+#sidebar-button {
+  list-style-image: var(--dango-sidebar-left) !important;
+}
+#save-page-button {
+  list-style-image: var(--dango-save) !important;
+}
+```
 
 ## Preview
 

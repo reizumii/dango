@@ -1,0 +1,14 @@
+{
+  "name": "dango-icons",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "optimize": "svgo -f ./svg",
+    "build:css": "node scripts/generate-css.js",
+    "build": "pnpm optimize && pnpm build:css"
+  },
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "svgo": "^4.0.1"
+  }
+}
